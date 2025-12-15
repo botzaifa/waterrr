@@ -38,7 +38,7 @@ uploaded_files = st.file_uploader(
 
 init_results_state(st)
 
-if uploaded_files and st.button("Remove Watermarks"):
+if uploaded_files and st.button("🧽 Remove Watermarks"):
     st.session_state.results.clear()
     progress = st.progress(0)
 
